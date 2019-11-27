@@ -13,6 +13,7 @@ void _itte(void)
       printf("%lu\n", result);
         if (result == -1)
         {
+            free(buff);
             break;
         }
         else if (result == 1)
